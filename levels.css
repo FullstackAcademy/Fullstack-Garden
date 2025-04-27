@@ -1,0 +1,121 @@
+#level-1 {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "peas onions"
+    "tomatoes lettuce"
+    "carrots nothing";
+}
+
+#level-2 {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "peas peas"
+    "onions tomatoes"
+    "lettuce carrots";
+}
+#level-3 {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "peas onions onions"
+    "tomatoes tomatoes lettuce"
+    "carrots carrots carrots";
+}
+#level-4 {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "peas peas onions carrots"
+    "tomatoes lettuce onions carrots";
+}
+#level-5 {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "carrots . onions . lettuce"
+    "carrots . onions peas peas"
+    "carrots tomatoes tomatoes tomatoes .";
+}
+}
+#level-1.garden .peas {
+  grid-area: peas;
+}
+#level-1.garden .onions {
+  grid-area: onions;
+}
+#level-1.garden .tomatoes {
+  grid-area: tomatoes;
+}
+#level-1.garden .lettuce {
+  grid-area: lettuce;
+}
+#level-1.garden .carrots {
+  grid-area: carrots;
+}
+#level-2.garden .peas {
+  grid-area: peas;
+}
+#level-2.garden .onions {
+  grid-area: onions;
+}
+#level-2.garden .tomatoes {
+  grid-area: tomatoes;
+}
+#level-2.garden .lettuce {
+  grid-area: lettuce;
+}
+#level-2.garden .carrots {
+  grid-area: carrots;
+}
+#level-3.garden .peas {
+  grid-area: peas;
+}
+#level-3.garden .onions {
+  grid-area: onions;
+}
+#level-3.garden .tomatoes {
+  grid-area: tomatoes;
+}
+#level-3.garden .lettuce {
+  grid-area: lettuce;
+}
+#level-3.garden .carrots {
+  grid-area: carrots;
+}
+#level-4.garden .peas {
+  grid-area: peas;
+}
+#level-4.garden .onions {
+  grid-area: onions;
+}
+#level-4.garden .tomatoes {
+  grid-area: tomatoes;
+}
+#level-4.garden .lettuce {
+  grid-area: lettuce;
+}
+#level-4.garden .carrots {
+  grid-area: carrots;
+}
+#level-5.garden .peas {
+  grid-area: peas;
+}
+#level-5.garden .onions {
+  grid-area: onions;
+}
+#level-5.garden .tomatoes {
+  grid-area: tomatoes;
+}
+#level-5.garden .lettuce {
+  grid-area: lettuce;
+}
+#level-5.garden .carrots {
+  grid-area: carrots;
+}
